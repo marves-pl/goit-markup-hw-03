@@ -181,12 +181,20 @@ color: #404bbf;
 
 /* --------- Features -----  */
 
+.feature-container {
+    padding: 120px 0 120px;
+    padding-bottom: 120px;
+
+}
+
+
 .features-subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .features-item-text {
@@ -195,6 +203,20 @@ color: #404bbf;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+
+}
+
+.features-list {
+    display: flex;
+    gap: 24px;
+    margin-right: 24px;
+
+}
+
+.features-item {
+    flex-basis: calc((100% - 72px) / 4);
+    margin-right: 0;
+    
 }
 
 /* ------- Team ---  */
