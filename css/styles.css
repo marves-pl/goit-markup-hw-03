@@ -153,6 +153,9 @@ color: #404bbf;
     text-align: center;
     color: #fff;
     max-width: 496px;
+    margin-left: 353px;
+    justify-content: center;
+    margin-bottom: 48px;
 }
 
 .efective-button {
@@ -169,6 +172,7 @@ color: #404bbf;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    margin-left: 522px;
 }
 
 .efective-button:hover,
@@ -256,6 +260,7 @@ color: #404bbf;
 
 .team-image {
     background: #fff;
+    display: block;
 }
 
 .team-subtitle {
@@ -315,7 +320,11 @@ color: #404bbf;
     border-top: none;
 
 }
-.portfolio-image {}
+
+.portfolio-image {
+    display: block;
+    
+}
 
 .portfolio-subtitle {
     font-weight: 500;
