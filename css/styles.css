@@ -89,10 +89,6 @@ margin-right: 76px;
 .header-logo .logo-part {
     color: #2e2f42;
 }
-
-.footer-logo .logo-part {
-color: #f4f4fd;
-}
     
 .nav-list {
 display: flex;
@@ -248,7 +244,7 @@ color: #404bbf;
 .team-list {
     margin-bottom: 72px;
     display: flex;
-    margin-right: 24px;
+    gap: 24px;
 }
 
 .team-item {
@@ -284,7 +280,10 @@ color: #404bbf;
 
 /* ----- Our Portfolii ----  */
 
-.portfolio {}
+.portfolio {
+    padding: 120px 0 120px;
+    padding-bottom: 120;
+}
 
 .portfolio-name {
     font-weight: 700;
@@ -331,6 +330,14 @@ color: #404bbf;
 
 .page-footer {
     background-color: #2e2f42;
+    padding: 100px 0 100px;
+    padding-bottom: 100px;
+}
+
+.footer-logo .logo-part {
+    color: #f4f4fd;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .page-footer-text {
@@ -339,4 +346,5 @@ color: #404bbf;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    max-width: 264px;
 }
