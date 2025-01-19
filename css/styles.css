@@ -240,22 +240,22 @@ color: #404bbf;
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
+    margin-bottom: 72px;
 
 
 }
 
 .team-list {
     margin-bottom: 72px;
-}
-
-.team-item {
-    background-color: #ffffff;
     display: flex;
     margin-right: 24px;
     margin-right: 0;
     flex-basis: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+}
 
+.team-item {
+    background-color: #ffffff;
 }
 
 .team-image {
